@@ -1,19 +1,19 @@
 # Aman Panigrahi — Portfolio
 
-Static portfolio website. No build step is required.
+Live site: https://aman-jw.github.io/
 
-## Files
+A static portfolio website. No build step is required.
 
-- `index.html` — portfolio site
+## Published files
+
+- `index.html` — portfolio website
 - `og-image.png` — social preview image
-- `resume.pdf` — recruiter-facing designed résumé
-- `resume-ats.pdf` — ATS-friendly résumé
+- `resume.pdf` — designed résumé for recruiters and direct sharing
+- `resume-ats.pdf` — ATS-friendly résumé for application portals
 - `LICENSE-fluid.txt` and `LICENSE-glisse.txt` — third-party component licences
 
 ## GitHub Pages
 
-Deploy from branch `main`, folder `/(root)`. The repository currently publishes as a project site because its name is `aman-j1w.github.io` under the `Aman-JW` account.
+This is the personal-site repository for the `Aman-JW` GitHub account. Deploy from branch `main`, folder `/(root)`.
 
-Expected project URL: `https://aman-jw.github.io/aman-j1w.github.io/`
-
-The canonical and social metadata in `index.html` are set to that project URL. Relative asset links are used so the page works from the project path.
+The portfolio uses relative paths for its PDF and image assets so they resolve from the root site.
